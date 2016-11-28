@@ -91,15 +91,11 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     fingerprintd
-	
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
 
 # Gello
 PRODUCT_PACKAGES += \
     Gello
-	
+
 # Graphics
 PRODUCT_PACKAGES += \
     copybit.msm8974 \
