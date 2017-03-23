@@ -152,7 +152,7 @@ BOARD_USES_CYANOGEN_HARDWARE := true
 TARGET_POWERHAL_VARIANT := qcom
 
 # Radio
-TARGET_RIL_VARIANT := caf
+TARGET_RIL_VARIANT := ril
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
@@ -204,3 +204,5 @@ endif
 #    $(DEVICE_PATH)/sepolicy
 
 -include vendor/zuk/ham/BoardConfigVendor.mk
+
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin
